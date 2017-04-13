@@ -1,0 +1,14 @@
+<p>
+  <a id="my-toggle-click">Toggle</a>
+</p>
+
+<div id="foo" style="border: 1px solid red;">
+  <p>bar</p>
+</div>
+
+<script>
+  $("#foo").hide();
+  $("#my-toggle-click").hover(function() {
+    $("#foo").fadeToggle();
+  })
+</script>
